@@ -8809,6 +8809,16 @@
 		)
 		(uuid "4d58f335-8872-452f-bb4f-08dd9db1ced6")
 	)
+	(text "NOTE：パワーラインCはDC biasを考慮し3225M以上"
+		(exclude_from_sim no)
+		(at 256.794 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65562e81-742d-4b46-a51f-8c7d32e25f33")
+	)
 	(text "参考資料："
 		(exclude_from_sim no)
 		(at 616.204 452.374 0)
@@ -9590,12 +9600,6 @@
 		(uuid "834eb73b-66cc-45bd-b28b-1ac4f357b0e3")
 	)
 	(junction
-		(at 252.73 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8384b790-1fd2-47de-970c-141f6df953e4")
-	)
-	(junction
 		(at 391.16 299.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9992,12 +9996,6 @@
 		(uuid "d31a50ae-2573-4fa0-8dee-3fa7e9b0059c")
 	)
 	(junction
-		(at 260.35 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d354e154-e147-4837-9caf-e218f682b23f")
-	)
-	(junction
 		(at 50.8 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10056,12 +10054,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3e90903-71d4-4470-8aba-4b6bbbc141ab")
-	)
-	(junction
-		(at 252.73 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e419f016-599c-4138-8438-13fa0eaa13fa")
 	)
 	(junction
 		(at 255.27 350.52)
@@ -10993,16 +10985,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 260.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f80b864-95eb-4fdf-93b3-923b6b628506")
-	)
-	(wire
-		(pts
 			(xy 74.93 38.1) (xy 80.01 38.1)
 		)
 		(stroke
@@ -11180,26 +11162,6 @@
 			(type default)
 		)
 		(uuid "249b5faf-0551-4bbf-a788-46eebbd22b13")
-	)
-	(wire
-		(pts
-			(xy 252.73 49.53) (xy 252.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c8449f-7ea9-428e-98cf-63c149409256")
-	)
-	(wire
-		(pts
-			(xy 245.11 38.1) (xy 252.73 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25682c76-7e49-42ca-9d81-9118c35aaf45")
 	)
 	(wire
 		(pts
@@ -11883,7 +11845,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 252.73 38.1)
+			(xy 245.11 38.1) (xy 260.35 38.1)
 		)
 		(stroke
 			(width 0)
@@ -13693,16 +13655,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 55.88) (xy 260.35 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8137ed91-fae5-429c-b9cb-4ec4eee37400")
-	)
-	(wire
-		(pts
 			(xy 123.19 38.1) (xy 130.81 38.1)
 		)
 		(stroke
@@ -14033,16 +13985,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 38.1) (xy 252.73 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f229bd-343f-4d1b-ab19-3ced2c3a0d21")
-	)
-	(wire
-		(pts
 			(xy 35.56 351.79) (xy 35.56 361.95)
 		)
 		(stroke
@@ -14353,16 +14295,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 55.88) (xy 252.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c24f82-5564-4e0d-b7bf-d1bc7855b374")
-	)
-	(wire
-		(pts
 			(xy 138.43 38.1) (xy 138.43 44.45)
 		)
 		(stroke
@@ -14503,7 +14435,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 55.88) (xy 278.13 55.88)
+			(xy 245.11 55.88) (xy 278.13 55.88)
 		)
 		(stroke
 			(width 0)
@@ -16290,16 +16222,6 @@
 			(type default)
 		)
 		(uuid "dd24a728-ad31-4556-a2bd-35cdacd9a275")
-	)
-	(wire
-		(pts
-			(xy 260.35 49.53) (xy 260.35 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd5c7d48-1c2e-4294-bfe3-9cbfcc4851ab")
 	)
 	(wire
 		(pts
@@ -41246,7 +41168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 278.13 45.72 0)
 			(effects
 				(font
@@ -41314,7 +41236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 307.34 45.72 0)
 			(effects
 				(font
@@ -45300,74 +45222,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Tracer_2.0-rescue:CP_Small-Device")
-		(at 252.73 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03d1d509-90e6-47b9-ac25-eba02bae8296")
-		(property "Reference" "C61"
-			(at 254.635 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 254.635 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb0c23d3-89ea-4bf0-aa01-7fea971c7c26")
-		)
-		(pin "2"
-			(uuid "295516b3-5457-4b7d-8ac4-e4bf07e65d0a")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "C61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 322.58 387.35 0)
 		(unit 1)
@@ -45753,7 +45607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 222.25 46.99 0)
 			(effects
 				(font
@@ -45858,6 +45712,94 @@
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "C24")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 360.68 335.28 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e61c1e4-6c23-449f-a3f6-c068ad831abe")
+		(property "Reference" "RN5"
+			(at 358.14 333.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 358.394 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 360.68 337.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 360.68 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae0a")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d7")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e0361")
+		)
+		(pin "3"
+			(uuid "8aa01e8c-3549-4cdd-9905-b20b0aaf3cc3")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5ba")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf145")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad8")
+		)
+		(pin "6"
+			(uuid "e0906009-30e9-4d84-9433-dc9c55839245")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN5")
+					(unit 3)
 				)
 			)
 		)
@@ -46790,7 +46732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 176.53 46.99 0)
 			(effects
 				(font
@@ -47909,6 +47851,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 360.68 358.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35e14397-e348-469b-96d4-76278a5cd49c")
+		(property "Reference" "RN5"
+			(at 358.14 356.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 358.648 358.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 360.68 360.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 360.68 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c972581e-b0d9-4ab8-98f1-fdc04d23716b")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d5")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e035f")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3c7")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5b8")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf143")
+		)
+		(pin "1"
+			(uuid "688a5466-4c62-4c4b-815f-0a7cc87d1255")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068b")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 314.96 55.88 0)
 		(unit 1)
@@ -48429,7 +48459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 153.67 46.99 0)
 			(effects
 				(font
@@ -48536,73 +48566,6 @@
 			(project "Tracer_2.0"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 412.75 147.32 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43db4542-7e3d-481b-8fea-be69bb348ddc")
-		(property "Reference" "R24"
-			(at 412.75 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 412.75 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 412.75 145.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 412.75 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 412.75 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f3d1f75-b43a-49f5-865a-4c5161515289")
-		)
-		(pin "2"
-			(uuid "1b7a5196-73b4-4264-b08e-93aa932a653d")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -49404,73 +49367,6 @@
 			(project "Tracer_2.0"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 379.73 250.19 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c473283-48f7-4454-b6a9-bf72a50cc62e")
-		(property "Reference" "R27"
-			(at 379.73 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 379.73 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 379.73 248.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 379.73 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8538b044-9fbe-4a1a-bd3c-2c420fa09ce2")
-		)
-		(pin "2"
-			(uuid "873b537a-4c9b-4999-b0ab-3be41bb8a53e")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -50346,7 +50242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 372.745 247.65 0)
 			(effects
 				(font
@@ -50392,6 +50288,94 @@
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "C30")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 379.73 154.94 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ac472bf-a1e7-4e3a-81d2-cb75dc7f706e")
+		(property "Reference" "RN3"
+			(at 377.19 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 377.444 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 379.73 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 379.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae0a")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d7")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e0361")
+		)
+		(pin "3"
+			(uuid "8da800af-2416-4af0-9b70-ba9f5fbb714c")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5ba")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf145")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad8")
+		)
+		(pin "6"
+			(uuid "5e4586b7-7c69-46d7-8fb1-3a9bf32edb90")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN3")
+					(unit 3)
 				)
 			)
 		)
@@ -51054,7 +51038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -51234,6 +51218,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 360.68 365.76 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6914fcf7-0abb-4e21-b732-6fa6e33cd95c")
+		(property "Reference" "RN5"
+			(at 358.14 363.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 358.648 365.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 360.68 367.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 360.68 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae09")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d6")
+		)
+		(pin "7"
+			(uuid "14393647-0c17-4877-9802-b8da9849392b")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3c8")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5b9")
+		)
+		(pin "2"
+			(uuid "162d9eb0-146d-4181-bd9b-76998ac0396c")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad7")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068c")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Tracer_2.0-rescue:CP_Small-Device")
 		(at 146.05 46.99 0)
 		(unit 1)
@@ -51260,7 +51332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 146.05 46.99 0)
 			(effects
 				(font
@@ -51592,7 +51664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 168.91 46.99 0)
 			(effects
 				(font
@@ -51660,7 +51732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -51768,73 +51840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 360.68 335.28 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75055898-bfba-46f7-a36e-b6a3c5b192ad")
-		(property "Reference" "R35"
-			(at 360.68 332.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 360.68 335.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 360.68 333.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c4bc988-e39f-4807-93c8-74cd0e3a39c8")
-		)
-		(pin "2"
-			(uuid "9a5bd28b-94d5-4550-81c7-1ed8d0a54c41")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 38.1 85.09 0)
 		(mirror y)
@@ -51924,7 +51929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 405.765 152.4 0)
 			(effects
 				(font
@@ -52236,6 +52241,94 @@
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "#PWR010")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 379.73 250.19 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d20337f-81fc-4dee-ae21-ef0247ed684c")
+		(property "Reference" "RN4"
+			(at 377.19 248.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 377.444 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 379.73 252.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 379.73 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae0a")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d7")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e0361")
+		)
+		(pin "3"
+			(uuid "83b12f82-684f-4935-97d5-76b3d92e0403")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5ba")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf145")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad8")
+		)
+		(pin "6"
+			(uuid "72bfea64-c0cc-4b01-9e54-78953188edca")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN4")
+					(unit 3)
 				)
 			)
 		)
@@ -52707,7 +52800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 130.81 46.99 0)
 			(effects
 				(font
@@ -53013,6 +53106,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 412.75 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8973e8f2-36c4-425d-bfd1-45159caa8085")
+		(property "Reference" "RN3"
+			(at 410.21 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 410.718 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 412.75 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 412.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 412.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cb9e8cc5-a15e-468e-8617-5bee539ac112")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d5")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e035f")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3c7")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5b8")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf143")
+		)
+		(pin "1"
+			(uuid "86b962a2-5aa2-4e6a-a4dd-feb5ee8dedde")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068b")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Tracer_2.0-rescue:CP_Small-Device")
 		(at 138.43 46.99 0)
 		(unit 1)
@@ -53039,7 +53220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -53299,6 +53480,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 379.73 242.57 270)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e6f0dfd-9b56-471e-a2c4-d9caa3874336")
+		(property "Reference" "RN4"
+			(at 377.19 240.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 377.698 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 379.73 244.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 379.73 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae0b")
+		)
+		(pin "4"
+			(uuid "56472466-a785-40d1-a7a3-c11e0052da46")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e0362")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3ca")
+		)
+		(pin "5"
+			(uuid "90149b17-6cf3-499b-9fd1-1142e875dd9d")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf146")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad9")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068e")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 486.41 130.81 0)
 		(mirror y)
@@ -53358,73 +53627,6 @@
 			(project "Tracer_ECU"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 412.75 242.57 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "920871c2-d5e3-42dc-9ae2-55e63538c7fd")
-		(property "Reference" "R32"
-			(at 412.75 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 412.75 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 412.75 240.792 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 412.75 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 412.75 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32cfdbc7-c266-4aee-abb7-4d7d2a094dcc")
-		)
-		(pin "2"
-			(uuid "01090b00-91ff-4eaf-96ca-eaf758408f5c")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -53698,73 +53900,6 @@
 			(project "Tracer_2.0"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 379.73 154.94 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "994fd32f-12bf-464b-ae7b-0bfa36707efc")
-		(property "Reference" "R23"
-			(at 379.73 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 379.73 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 379.73 153.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 379.73 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd212573-96ea-49db-8aeb-f77c21849346")
-		)
-		(pin "2"
-			(uuid "64767b58-6062-4e5e-b01d-25ca84180085")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -54500,7 +54635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 405.765 247.65 0)
 			(effects
 				(font
@@ -54680,73 +54815,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 360.68 358.14 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0e75227-bdeb-4c7f-b9ee-ba54151fc2d8")
-		(property "Reference" "R36"
-			(at 360.68 355.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 360.68 358.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 360.68 356.362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6b0e8c3-d05d-4d06-94b3-c4484417c997")
-		)
-		(pin "2"
-			(uuid "b319f475-6d87-4001-a9d5-14a19445498e")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 134.62 304.8 90)
 		(mirror x)
 		(unit 1)
@@ -54807,73 +54875,6 @@
 			(project "Tracer_2.0"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 379.73 147.32 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a352a4bf-10e1-41fc-a4e2-7c9125ea0ff3")
-		(property "Reference" "R22"
-			(at 379.73 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 379.73 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 379.73 145.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 379.73 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59d65e78-7593-472e-ba42-07559a7b8268")
-		)
-		(pin "2"
-			(uuid "cb4ace69-a833-44e6-806b-c1cba68f2356")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -54968,7 +54969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 353.695 332.74 0)
 			(effects
 				(font
@@ -55324,7 +55325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 191.77 46.99 0)
 			(effects
 				(font
@@ -55392,7 +55393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 229.87 46.99 0)
 			(effects
 				(font
@@ -56082,6 +56083,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 412.75 154.94 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2ae563b-8e8b-404d-9c0c-0f52883c4abd")
+		(property "Reference" "RN3"
+			(at 410.21 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 410.718 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 412.75 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 412.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 412.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae09")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d6")
+		)
+		(pin "7"
+			(uuid "5bfdedf1-8646-43fe-858c-1ae830b9eadd")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3c8")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5b9")
+		)
+		(pin "2"
+			(uuid "da09b447-fa88-44d4-a944-39eca4322cec")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad7")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068c")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 391.16 160.02 0)
 		(unit 1)
@@ -56141,6 +56230,94 @@
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "#PWR041")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 360.68 327.66 270)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5d5d60d-df6e-4adc-97c5-f8f134ee5613")
+		(property "Reference" "RN5"
+			(at 358.14 325.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 358.648 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 360.68 329.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 360.68 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae0b")
+		)
+		(pin "4"
+			(uuid "d90536ac-cd88-4299-b7f9-b6677e18ea2e")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e0362")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3ca")
+		)
+		(pin "5"
+			(uuid "72952880-8305-43a1-85a8-dcfa11f963f3")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf146")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad9")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068e")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN5")
+					(unit 4)
 				)
 			)
 		)
@@ -56434,7 +56611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 207.01 46.99 0)
 			(effects
 				(font
@@ -56470,141 +56647,6 @@
 			(project "Tracer_ECU"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Tracer_2.0-rescue:CP_Small-Device")
-		(at 260.35 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bae1e61d-2793-4e36-8b1e-6c80158e2b94")
-		(property "Reference" "C62"
-			(at 262.255 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 262.255 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b82c5c6-a1bb-4eaf-bc0b-7be74e465d57")
-		)
-		(pin "2"
-			(uuid "cfbca842-5186-444a-afc3-c276717d80e5")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 360.68 365.76 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc2ad196-4a6d-4ec9-8c6e-bf3357675756")
-		(property "Reference" "R37"
-			(at 360.68 363.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 360.68 365.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 360.68 363.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1485c39-6435-4f50-b090-d0ef249b7afe")
-		)
-		(pin "2"
-			(uuid "1982abb9-6635-48e3-94a5-45da66f360bb")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -57060,7 +57102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 372.745 152.4 0)
 			(effects
 				(font
@@ -57205,7 +57247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 123.19 46.99 0)
 			(effects
 				(font
@@ -57654,7 +57696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 161.29 46.99 0)
 			(effects
 				(font
@@ -57916,7 +57958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "0.01"
 			(at 353.695 363.22 0)
 			(effects
 				(font
@@ -58202,7 +58244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 214.63 46.99 0)
 			(effects
 				(font
@@ -58375,73 +58417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 360.68 327.66 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d126330f-5e1c-45bb-9387-8edf996f4f42")
-		(property "Reference" "R34"
-			(at 360.68 325.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 360.68 327.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 360.68 325.882 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdfba543-9c54-48b1-9541-1c8f27bfabc0")
-		)
-		(pin "2"
-			(uuid "adb68443-1a9e-4389-b154-5387f31e17cd")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 110.49 372.11 0)
 		(mirror y)
@@ -58528,73 +58503,6 @@
 			(project "Tracer_ECU"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 412.75 250.19 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1510ea9-6c10-49eb-8327-af1160db1d6f")
-		(property "Reference" "R33"
-			(at 412.75 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 412.75 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 412.75 248.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 412.75 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 412.75 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f97373c5-589a-4819-bc28-70a020961a46")
-		)
-		(pin "2"
-			(uuid "6ddbc196-a94c-4e66-a56e-99eb35db71fd")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -58924,6 +58832,94 @@
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "R60")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 379.73 147.32 270)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5f004cd-0e66-4b39-96f3-a3918cab807b")
+		(property "Reference" "RN3"
+			(at 377.19 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 377.698 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 379.73 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 379.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae0b")
+		)
+		(pin "4"
+			(uuid "0890aecf-f379-408d-afe1-3918056271e6")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e0362")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3ca")
+		)
+		(pin "5"
+			(uuid "c29bc834-d37f-475b-8075-0fe389d2d9f8")
+		)
+		(pin "2"
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf146")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad9")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068e")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN3")
+					(unit 4)
 				)
 			)
 		)
@@ -59516,73 +59512,6 @@
 			(project "Tracer_ECU"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
 					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 412.75 154.94 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da45f9fa-9ce0-452d-94b6-3d93e43c72c7")
-		(property "Reference" "R25"
-			(at 412.75 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kF"
-			(at 412.75 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 412.75 153.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 412.75 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 412.75 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d74bc9dd-f2cf-4650-8803-894e10ce4b75")
-		)
-		(pin "2"
-			(uuid "c48c9315-291a-4eec-aed2-69102fad413d")
-		)
-		(instances
-			(project "Tracer_ECU"
-				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -60349,33 +60278,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 379.73 242.57 90)
+		(lib_id "Device:R_Pack04_Split")
+		(at 412.75 242.57 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e93d125e-1801-4dda-aca6-455ed0c280d1")
-		(property "Reference" "R26"
-			(at 379.73 240.03 90)
+		(uuid "e622db1b-d3cc-44d6-b5ff-c522d9ddd19f")
+		(property "Reference" "RN4"
+			(at 410.21 240.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1kF"
-			(at 379.73 242.57 90)
+		(property "Value" "4.7k"
+			(at 410.718 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 379.73 240.792 90)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 412.75 244.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60384,7 +60315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 242.57 0)
+			(at 412.75 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60392,24 +60323,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 379.73 242.57 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 412.75 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0c95c5c4-63be-48e4-a6df-4e3a0ef57bde")
+		(pin "8"
+			(uuid "4c1667a5-5214-45d2-ad12-df649199f33b")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d5")
+		)
+		(pin "7"
+			(uuid "2000683a-e0ea-438a-bc52-e4afb90e035f")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3c7")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5b8")
 		)
 		(pin "2"
-			(uuid "b614d89e-cb5a-484d-9443-f73a18f380d7")
+			(uuid "1c1f84fd-a98f-427a-b3c7-aa102f6cf143")
+		)
+		(pin "1"
+			(uuid "eca39919-ed41-4309-b335-a453dc39fe64")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068b")
 		)
 		(instances
 			(project "Tracer_ECU"
 				(path "/28118297-81a1-405e-b7bf-385c9efac872"
-					(reference "R26")
+					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -61116,6 +61066,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 412.75 250.19 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b68561-1efe-402c-af73-db5687fc34ff")
+		(property "Reference" "RN4"
+			(at 410.21 248.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 410.718 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "My_Footprint_Lib:R_Array_Convex_4x0402"
+			(at 412.75 252.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 412.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 412.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d683e9df-447b-4824-89ed-888caa63ae09")
+		)
+		(pin "4"
+			(uuid "23f14a60-abf9-4c77-aedb-4bd3a89365d6")
+		)
+		(pin "7"
+			(uuid "ec10c7de-60d1-4ec8-ac4c-ee1a8e9f98d3")
+		)
+		(pin "3"
+			(uuid "8942f983-e012-4986-958a-05d0b276b3c8")
+		)
+		(pin "5"
+			(uuid "07ec31b2-026f-4aa2-827c-668d5c3ca5b9")
+		)
+		(pin "2"
+			(uuid "451b81de-a4b2-4b98-9695-6a7bdc351a41")
+		)
+		(pin "1"
+			(uuid "2b40631e-d36e-4e86-aa6d-16e8c9b26ad7")
+		)
+		(pin "6"
+			(uuid "7fffb3c6-4394-40bf-8e3b-a3f3a5f9068c")
+		)
+		(instances
+			(project "Tracer_ECU"
+				(path "/28118297-81a1-405e-b7bf-385c9efac872"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 391.16 331.47 0)
 		(unit 1)
@@ -61601,7 +61639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 237.49 46.99 0)
 			(effects
 				(font
@@ -61736,7 +61774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 184.15 46.99 0)
 			(effects
 				(font
@@ -61896,7 +61934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 115.57 46.99 0)
 			(effects
 				(font
