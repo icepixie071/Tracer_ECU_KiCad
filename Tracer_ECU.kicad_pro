@@ -1179,7 +1179,7 @@
       {
         "filename": "Tracer_ECU.kicad_sch",
         "name": "Tracer_ECU",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "28118297-81a1-405e-b7bf-385c9efac872"
       }
     ],
     "used_designators": "",
@@ -1188,7 +1188,7 @@
   "sheets": [
     [
       "28118297-81a1-405e-b7bf-385c9efac872",
-      "Root"
+      "Tracer_ECU"
     ]
   ],
   "text_variables": {},
