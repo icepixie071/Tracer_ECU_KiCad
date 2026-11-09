@@ -53486,7 +53486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "1000p"
 			(at 372.745 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55538,7 +55538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "1000p"
 			(at 405.765 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58692,7 +58692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "1000p"
 			(at 405.765 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59086,7 +59086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "1000p"
 			(at 353.695 332.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61579,7 +61579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "1000p"
 			(at 372.745 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62579,7 +62579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01"
+		(property "Value" "1000p"
 			(at 353.695 363.22 0)
 			(show_name no)
 			(do_not_autoplace no)
